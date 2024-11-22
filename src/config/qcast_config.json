@@ -1,0 +1,43 @@
+{
+    "q_learning": {
+        "learning_rate": 0.1,
+        "discount_factor": 0.95,
+        "initial_epsilon": 1.0
+    },
+    "container": {
+        "min_containers": 1,
+        "max_containers": 100
+    },
+    "resources": {
+        "optimization_strategy": "balanced",
+        "update_interval": 60
+    },
+    "monitoring": {
+        "interval": 10,
+        "window_size": 24
+    },
+    "control": {
+        "interval": 30
+    },
+    "optimization": {
+        "interval": 300
+    },
+    "rewards": {
+        "targets": {
+            "cpu_usage": 0.7,
+            "memory_usage": 0.7,
+            "response_time": 100,
+            "error_rate": 0.01
+        },
+        "weights": {
+            "cpu": 0.25,
+            "memory": 0.25,
+            "response_time": 0.25,
+            "error_rate": 0.25
+        }
+    },
+    "system": {
+        "max_history_size": 1000,
+        "state_path": "data/system_state.json"
+    }
+}
