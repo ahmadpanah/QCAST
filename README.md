@@ -244,7 +244,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Seyed Hossein Ahmadpanah - [@yourusername](https://twitter.com/yourusername)
+Seyed Hossein Ahmadpanah - h.ahmadpanah@iau.ac.ir
 
 Project Link: [https://github.com/ahmadpanah/qcast](https://github.com/yourusername/qcast)
 
